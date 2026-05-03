@@ -1,0 +1,87 @@
+{
+  "name": "vscode-copy-github-url",
+  "displayName": "Copy GitHub URL",
+  "description": "Copy the GitHub URL for the current file from VS Code or Cursor.",
+  "version": "0.0.1",
+  "publisher": "ascreit",
+  "icon": "docs/icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ascreit/vscode-copy-github-url.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "ascreit",
+    "github",
+    "url",
+    "copy",
+    "preview",
+    "cursor"
+  ],
+  "bugs": {
+    "url": "https://github.com/ascreit/vscode-copy-github-url/issues"
+  },
+  "homepage": "https://github.com/ascreit/vscode-copy-github-url#readme",
+  "activationEvents": [
+    "onCommand:copyGithubUrl.copy",
+    "onCommand:copyGithubUrl.preview"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copyGithubUrl.copy",
+        "title": "Copy GitHub URL"
+      },
+      {
+        "command": "copyGithubUrl.preview",
+        "title": "Preview GitHub URL"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "copyGithubUrl.copy",
+          "when": "resourceScheme == file",
+          "group": "navigation@100"
+        },
+        {
+          "command": "copyGithubUrl.preview",
+          "when": "resourceScheme == file",
+          "group": "navigation@101"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "copyGithubUrl.copy",
+          "when": "resourceScheme == file",
+          "group": "navigation@100"
+        },
+        {
+          "command": "copyGithubUrl.preview",
+          "when": "resourceScheme == file",
+          "group": "navigation@101"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "test": "npm run compile && node --test test/*.test.js",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^2.26.1",
+    "typescript": "^5.4.2"
+  }
+}
