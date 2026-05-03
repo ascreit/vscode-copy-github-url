@@ -1,8 +1,8 @@
 {
   "name": "vscode-copy-github-url",
-  "displayName": "Copy GitHub URL",
+  "displayName": "Ascreit Copy GitHub URL",
   "description": "Copy the GitHub URL for the current file from VS Code or Cursor.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "ascreit",
   "icon": "docs/icon.png",
   "license": "MIT",
