@@ -18,6 +18,12 @@ https://github.com/ascreit/vscode-copy-github-url/blob/main/README.md
 - Gitのremote URLと現在のブランチ名からGitHubの `blob` URLを生成
 - GitHubリポジトリではない場合やremoteが見つからない場合に通知
 
+## スクリーンショット
+
+エクスプローラーやエディターの右クリックメニューから、`Copy GitHub URL` と `Preview GitHub URL` を実行できます。
+
+![Copy GitHub URL context menu](docs/image.png)
+
 ## 使い方
 
 1. GitHubで管理されているリポジトリをVS Code / Cursorで開く
