@@ -1,11 +1,13 @@
-# Copy GitHub URL
+# Ascreit Copy GitHub URL
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/ascreit.vscode-copy-github-url?label=version)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/ascreit.vscode-copy-github-url?label=installs)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/ascreit.vscode-copy-github-url?label=rating)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+[![Visual Studio Marketplace Version](https://vsmarketplacebadges.dev/version-short/ascreit.vscode-copy-github-url.svg)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+[![Visual Studio Marketplace Installs](https://vsmarketplacebadges.dev/installs-short/ascreit.vscode-copy-github-url.svg)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+[![Visual Studio Marketplace Rating](https://vsmarketplacebadges.dev/rating-star/ascreit.vscode-copy-github-url.svg)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
 [![License](https://img.shields.io/github/license/ascreit/vscode-copy-github-url)](LICENSE)
 
 VS Code / Cursor のエクスプローラーやエディターの右クリックメニューから、現在のファイルのGitHub URLをコピーするための拡張です。
+
+[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
 
 GitHubで管理されているリポジトリ内のファイルを右クリックして `Copy GitHub URL` を実行すると、以下のようなURLをクリップボードへコピーします。
 
@@ -43,18 +45,22 @@ Copy GitHub URL
 Preview GitHub URL
 ```
 
-例えば、`main` ブランチで `examples/mermaid.md` をコピーした場合は以下のようなURLになります。
+例えば、`main` ブランチで `README.md` をコピーした場合は以下のようなURLになります。
 
 ```text
-https://github.com/ascreit/vscode-github-markdown-preview/blob/main/examples/mermaid.md
+https://github.com/ascreit/vscode-copy-github-url/blob/main/README.md
 ```
 
 ## インストール
 
-Marketplaceで公開後、以下からインストールできます。
+Marketplaceからインストールできます。
+
+[Install from Marketplace](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+
+コマンドパレットからインストールする場合は、`Extensions: Install Extensions` を開いて以下を検索してください。
 
 ```text
-Copy GitHub URL
+Ascreit Copy GitHub URL
 ```
 
 拡張IDで検索する場合は以下です。
