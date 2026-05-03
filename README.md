@@ -1,5 +1,8 @@
 # Copy GitHub URL
 
+[![Version](https://img.shields.io/visual-studio-marketplace/v/ascreit.vscode-copy-github-url?label=version)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/ascreit.vscode-copy-github-url?label=installs)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/ascreit.vscode-copy-github-url?label=rating)](https://marketplace.visualstudio.com/items?itemName=ascreit.vscode-copy-github-url)
 [![License](https://img.shields.io/github/license/ascreit/vscode-copy-github-url)](LICENSE)
 
 VS Code / Cursor のエクスプローラーやエディターの右クリックメニューから、現在のファイルのGitHub URLをコピーするための拡張です。
